@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Database connection failures",
+    "description": "Production API requests are failing with repeated connection pool exhaustion and database timeout errors.",
+    "source": "production-api"
+  },
+  {
+    "title": "Users cannot log in",
+    "description": "Authentication tokens are rejected as unauthorized after deployment.",
+    "source": "auth-service"
+  },
+  {
+    "title": "Upstream API unreachable",
+    "description": "TCP connection refused and DNS lookup failures appear in gateway logs.",
+    "source": "api-gateway"
+  },
+  {
+    "title": "Checkout is slow",
+    "description": "Checkout latency increased after traffic doubled and CPU usage reached 95 percent.",
+    "source": "checkout-service"
+  }
+]
