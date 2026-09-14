@@ -176,26 +176,6 @@ pytest
 }
 ```
 
-## Resume bullets
-
-Use these only after you have personally run, tested, and understood the project.
-
-**AI Incident Response Agent | Python, LangGraph, Hugging Face, FastAPI**
-- Built an agentic workflow that classifies software incidents, assesses severity, and generates structured remediation plans from logs and support-ticket descriptions.
-- Orchestrated multi-step analysis with LangGraph, routing incidents through category-specific troubleshooting paths before generating a final incident report.
-- Exposed the workflow through a FastAPI REST endpoint and added deterministic fallback logic and automated tests for reproducible local execution.
-
-## Good interview talking points
-
-Be ready to explain:
-
-- Why a graph workflow is better than one giant prompt
-- How routing works
-- Why structured output matters
-- What happens when the LLM is unavailable
-- How you would add tools such as log search, metrics, or ticket creation
-- How you would evaluate classification and recommendation quality
-
 ## Future improvements
 
 - Connect to real log files
